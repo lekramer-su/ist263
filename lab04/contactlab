@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact</h1
+        <p>Lauren Kramer</p>
+        <p>417 Comstock Ave Syracuse NY 13210</p>
+        <a href="mailto:lekramer@syr.edu">Lauren Kramer's Email</a>
+        <h2>My Linkedln Profile</h2>
+        <a href="https://www.linkedin.com/in/lauren-kramer/"> </a>
+        <img src="../Images/LI-In-Bug.png" alt="photo">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.9531463311787!2d-76.1322217489416!3d43.042417299625534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f30af7181d95%3A0x58d5a4c398db10ad!2s417%20Comstock%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1599603296536!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+        
+    
+        <form action="mailto:lekramer@syr.edu" method="post">
+            <label for="firstname"> First Name:</label>
+            <input type="text" id="firstname" name="firstname"><br>
+        
+            
+    
+
+            What is your favorite sport to watch?
+            <label for="sport">Choose a sport:</label> 
+            <select id="sport" name="sport">
+                <option value="Baseball">Baseball</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Hockey">Hockey</option>
+                <option value="Golf">Golf</option>
+            </select>
+            <br>
+            <br>
+
+                    <label for="campus">Do you live on campus?</label>
+                    <input type="checkbox" id="campus" name="campus" value="yes"> yes
+                    <br>
+
+        <label for="comment">Comment</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50">
+        </textarea><br>
+
+        <input type="submit" value="Send Form">
+  
+        </form>
+    </body>
+</html>
