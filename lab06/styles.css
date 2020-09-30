@@ -2,6 +2,7 @@
 <title>Laurens WireFrame</title>
 <link rel="sytlesheet" href="/path/stylesheet.css">
 </head>
-body 
-<h1 {font-face: "Trebuchet MS", Helvetica, sans-serif; } </h1>
+<body> 
+<h1 {font-family: "Trebuchet MS", Helvetica, sans-serif; } </h1>
 Group selectors     p, ul, td, th { color: deeppink; }
+</body>
