@@ -2,11 +2,11 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .evenrow {
-    background-color: deeppink;
+    background-color: Fuchsia;
 }
 h1 {
-    color: deeppink; font-size: 14 em;
+    color: Fuchsia; font-size: 14 em;
 }
 h2 {
-    color: deeppink; font-size: 12 em;
+    color: Fuchsia; font-size: 12 em;
 }
