@@ -5,8 +5,8 @@ body{
     background-color: deeppink;
 }
 h1 {
-    font-size: 14 em;
+    color: deeppink; font-size: 14 em;
 }
 h2 {
-    font-size: 12 em;
+    color: deeppink; font-size: 12 em;
 }
