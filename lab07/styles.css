@@ -1,10 +1,14 @@
 body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #ffe0f7; 
+    color: Fuchsia; 
 }
+nav a {background-color: #FFE0F7;}
 
-<background-color>  
-    <element id=#ffe0f7> 
+nav a {color:#FE91CA;}
+
+nav a:hover {background-color: #251f44;}
+
+
 h1 {
     color: Fuchsia; font-size: 14 em;
 }
