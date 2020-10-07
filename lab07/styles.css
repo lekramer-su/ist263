@@ -1,12 +1,12 @@
 body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: ##000000; 
+    color: #3c415e; 
 }
-nav a {background-color: #ff3f98;}
+nav a {background-color: #dfe2e2;}
 
-nav a {color:#eda593;}
+nav a {color:#738598;}
 
-nav a:hover {background-color: #010a43;}
+nav a:hover {background-color: #1cb3c8;}
 
 
 h1 {
