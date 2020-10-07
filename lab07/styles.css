@@ -8,6 +8,12 @@ nav a {color:#dc2ade;}
 
 nav a:hover {background-color: #f2d0f2;}
 
+nav {padding: 10px}
+
+nav {margin-bottom: 30px}
+
+a:link {color:#515961;}
+
 
 h1 {
     color: Fuchsia; font-size: 14 em;
