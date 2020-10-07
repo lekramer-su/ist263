@@ -6,7 +6,7 @@ nav {background-color: #000000;}
 
 nav a {color:#dc2ade;}
 
-nav a:hover {background-color: #f2d0f2;}
+nav a:hover {background-color: #eedeee;}
 
 nav {padding: 10px}
 
@@ -21,4 +21,4 @@ h1 {
 h2 {
     color: Fuchsia; font-size: 12 em;
 }
-.evenrow {background-color: #E6E6FA}
+.evenrow {background-color: rgb(204, 107, 204)}
