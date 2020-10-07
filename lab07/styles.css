@@ -2,7 +2,7 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #3c415e; 
 }
-nav a {background-color: #dfe2e2;}
+nav {background-color: #dfe2e2;}
 
 nav a {color:#dc2ade;}
 
@@ -12,7 +12,7 @@ nav {padding: 10px}
 
 nav {margin-bottom: 30px}
 
-a:link {color:#42b6f5;}
+a:link {color:#dc2ade;}
 
 
 h1 {
