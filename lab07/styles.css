@@ -1,24 +1,12 @@
-body{
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: #575757; 
-}
+body{font-family: "Trebuchet MS", Helvetica, sans-serif; color: #575757; }
+.evenrow {background-color: rgb(226, 188, 226)}
+
 nav {background-color: #d6d6d6;}
-
 nav a {color:#dc2ade;}
-
-nav a:hover {background-color: #ffffff;}
-
+nav a:hover {background-color: #feccff;}
 nav {padding: 10px}
-
 nav {margin-bottom: 30px}
 
-a:link {color:#eea1f0;}
 
-
-h1 {
-    color: Fuchsia; font-size: 14 em;
-}
-h2 {
-    color: Fuchsia; font-size: 12 em;
-}
-.evenrow {background-color: rgb(226, 188, 226)}
+h1 {color: Fuchsia; font-size: 14 em;}
+h2 {color: Fuchsia; font-size: 12 em;}
