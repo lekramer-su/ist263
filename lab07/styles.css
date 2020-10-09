@@ -1,6 +1,9 @@
 body{font-family: "Trebuchet MS", Helvetica, sans-serif; color: #575757; }
 .evenrow {background-color: #fe96ff;}
 
+body {background-color: #FFFFFF;}
+a:link {color: #0000EE;}
+
 nav {background-color: #d6d6d6;}
 nav a {color:#dc2ade;}
 nav a:hover {background-color: #feccff;}
@@ -9,5 +12,5 @@ nav {margin-bottom: 30px}
 a:visited {color: #000000;}
 
 
-h1 {color: Fuchsia; font-size: 14 em;}
-h2 {color: Fuchsia; font-size: 12 em;}
+h1 {color: #ff00ff; font-size: 14 em;}
+h2 {color: #ff00ff; font-size: 12 em;}
