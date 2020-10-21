@@ -15,3 +15,5 @@ a:visited {color: #000000;}
 h1 {color: #ff00ff; font-size: 14 em;}
 h2 {color: #ff00ff; font-size: 12 em;}
 
+
+p.image {max-width: 100px;}
