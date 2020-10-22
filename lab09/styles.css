@@ -17,4 +17,4 @@ h2 {color: #ff00ff; font-size: 12 em;}
 
 
 p.image {max-width: 100px;}
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 600px) {<meta name="viewpoint" content="width=device-width, inital-scale=1">}
