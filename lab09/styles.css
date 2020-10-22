@@ -19,7 +19,8 @@ h2 {color: #ff00ff; font-size: 12 em;}
 .image {max-width: 100%;}
 @media only screen and (max-width: 600px) 
 {
-    nav a {width: 100%; 
+    nav a {width: 100%; margin-bottom: 10px;
     display: block;} 
     .pipe {display:none;}
+
 }
