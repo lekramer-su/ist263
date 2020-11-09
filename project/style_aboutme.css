@@ -3,3 +3,11 @@ p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #00000
 nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
 body {background-color: #edf8ff;}
+
+#skip-to-content {
+    position: absolute; 
+    left: -999px; 
+    background-color: white;
+    border: 1px solid gray;
+    }
+#skip-to-content:focus {position: absolute; left: 10px;}
