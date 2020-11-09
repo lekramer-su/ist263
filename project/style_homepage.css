@@ -10,3 +10,11 @@ nav a:hover {background-color: #ff2e2e;}
 nav {padding: 10px}
 nav {margin-bottom: 30px}
 a:visited {color: #000000;}
+
+#skip-to-content {
+    position: absolute; 
+    left: -999px; 
+    background-color: white;
+    border: 1px solid gray;
+    }
+#skip-to-content:focus {position: absolute; left: 10px;}
