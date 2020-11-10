@@ -9,14 +9,14 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .remedies p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
 .remedies p{ display: inline-block; margin-left: 20px; border: solid 5px #541994; padding: 10px; }
 
-.my h1{font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #048023;}
-.my p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
+.story h1{font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #048023;}
+.story p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
 
 .footer{font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
 
 .home {background-color: #fff2fa;}
-.my {background-color: #f5fff8;} 
+.story {background-color: #f5fff8;} 
 .me {background-color: #edf8ff;}
 .remedies {background-color: #f8f2ff;}
 
@@ -24,7 +24,7 @@ nav {background-color: #e6e6e6;}
 nav a {color:#ff8800;}
 
 .home nav a:hover {background-color: #faed27;}
-.my nav a:hover {background-color: #faed27;} 
+.story nav a:hover {background-color: #faed27;} 
 .me nav a:hover {background-color: #faed27;} 
 .remedies nav a:hover {background-color: #faed27;}
 
