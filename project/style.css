@@ -23,10 +23,10 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 nav {background-color: #e6e6e6;}
 nav a {color:#ff8800;}
 
-.home nav a:hover {background-color: #fc6868;}
-.my nav a:hover {background-color: #46cf68;} 
+.home nav a:hover {background-color: #faed27;}
+.my nav a:hover {background-color: #faed27;} 
 .me nav a:hover {background-color: #faed27;} 
-.remedies nav a:hover {background-color: #e5cfff;}
+.remedies nav a:hover {background-color: #faed27;}
 
 nav {padding: 10px}
 nav {margin-bottom: 30px}
