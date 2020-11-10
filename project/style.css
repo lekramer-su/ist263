@@ -7,9 +7,12 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
 .remedies h1{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #541994; }
 .remedies p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
+.remedies p{ display: inline-block; margin-left: 20px; border: solid 5px #541994; padding: 10px; }
 
 .my h1{font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #048023;}
 .my p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
+
+.footer{font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
 
 .home {background-color: #fff2fa;}
@@ -18,11 +21,11 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .remedies {background-color: #f8f2ff;}
 
 nav {background-color: #e6e6e6;}
-nav a {color:#b0b3b5;}
+nav a {color:#ff8800;}
 
 .home nav a:hover {background-color: #fc6868;}
 .my nav a:hover {background-color: #46cf68;} 
-.me nav a:hover {background-color: #66adff;} 
+.me nav a:hover {background-color: #faed27;} 
 .remedies nav a:hover {background-color: #e5cfff;}
 
 nav {padding: 10px}
