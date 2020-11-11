@@ -76,4 +76,5 @@ a:visited {color: #000000;}
 .picture-wrapper {
     display: flex;
     align-items: baseline;
+    margin: 0 auto;
 }
