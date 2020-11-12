@@ -20,7 +20,7 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .me {background-color: #edf8ff;}
 .remedies {background-color: #f8f2ff;}
 
-nav {background-color: #ffb04f;}
+nav {background-color: #0f0f54;}
 nav a {color:#fdb9ec;}
 
 .home nav a:hover {background-color: #000000;}
@@ -30,7 +30,7 @@ nav a {color:#fdb9ec;}
 
 nav {padding: 10px}
 nav {margin-bottom: 30px}
-a:visited {color: #000000;}
+a:visited {color: #ffffff;}
 
 #skip-to-content {
     position: absolute; 
