@@ -20,14 +20,17 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .me {background-color: #edf8ff;}
 .remedies {background-color: #f8f2ff;}
 
-nav {background-color: #0f0f54;}
+.home nav {background-color: #0f0f54;}
+.me nav {background-color: #D4AF37;}
+.remedies nav {background-color: #ff9100;}
+.story nav {background-color: #ff2e2e;}
 nav a {color:#fdb9ec;}
 .pipe {color: #ffffff;}
 
 .home nav a:hover {background-color: #9ec8de;}
-.story nav a:hover {background-color: #faed27;} 
-.me nav a:hover {background-color: #faed27;} 
-.remedies nav a:hover {background-color: #faed27;}
+.story nav a:hover {background-color: #000000;} 
+.me nav a:hover {background-color: #0f0f54;} 
+.remedies nav a:hover {background-color: #541994;}
 
 nav {padding: 10px}
 nav {margin-bottom: 30px}
@@ -78,4 +81,13 @@ a:visited {color: #ffffff;}
     display: flex;
     align-items: baseline;
     margin: 0 auto;
+}
+
+.image {max-width: 100%;}
+@media only screen and (max-width: 600px) 
+{
+    nav a {width: 100%; margin-bottom: 10px;
+    display: block;} 
+    .pipe {display:none;}
+
 }
