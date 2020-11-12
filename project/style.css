@@ -87,7 +87,9 @@ a:visited {color: #ffffff;}
 @media only screen and (max-width: 600px) 
 {
     nav a {width: 100%; margin-bottom: 10px;
-    display: block;} 
+    .flex-container{
+        flex-direction: column;
+    }
     .pipe {display:none;}
 
 }
