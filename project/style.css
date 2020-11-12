@@ -20,17 +20,17 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .me {background-color: #edf8ff;}
 .remedies {background-color: #f8f2ff;}
 
-nav {background-color: #f0f0f0;}
-nav a {color:#ff8800;}
+nav {background-color: #ff2e2e;}
+nav a {color:#fdb9ec;}
 
-.home nav a:hover {background-color: #faed27;}
+.home nav a:hover {background-color: #000000;}
 .story nav a:hover {background-color: #faed27;} 
 .me nav a:hover {background-color: #faed27;} 
 .remedies nav a:hover {background-color: #faed27;}
 
 nav {padding: 10px}
 nav {margin-bottom: 30px}
-a:visited {color: #000000;}
+a:visited {color: #ffffff;}
 
 #skip-to-content {
     position: absolute; 
