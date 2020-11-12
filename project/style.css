@@ -22,8 +22,9 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
 nav {background-color: #0f0f54;}
 nav a {color:#fdb9ec;}
+.pipe {color: #ffffff;}
 
-.home nav a:hover {background-color: #000000;}
+.home nav a:hover {background-color: #9ec8de;}
 .story nav a:hover {background-color: #faed27;} 
 .me nav a:hover {background-color: #faed27;} 
 .remedies nav a:hover {background-color: #faed27;}
