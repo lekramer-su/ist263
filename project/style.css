@@ -84,12 +84,15 @@ a:visited {color: #ffffff;}
 }
 
 .image {max-width: 100%;}
+
 @media only screen and (max-width: 600px) 
 {
-    nav a {width: 100%; margin-bottom: 10px;
-    .flex-container{
-        flex-direction: column;
+    .home-wrapper{
+        flex-direction: column-reverse;
     }
     .pipe {display:none;}
 
+    nav a {width: 100%; margin-bottom: 10px;
+        display: block;} 
+        .pipe {display:none;}
 }
