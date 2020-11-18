@@ -1,15 +1,15 @@
-.home h1{font-family: 'Abril Fatface', cursive; color: #ff2e2e; }
+.home h1{font-family: 'Fredoka One', cursive; color: #ff2e2e; }
 .home p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
 nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
-.me h1{font-family: 'Abril Fatface', cursive; color: #0077ff; }
+.me h1{font-family: 'Fredoka One', cursive; color: #0077ff; }
 .me p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
 
-.remedies h1{font-family: 'Abril Fatface', cursive; color: #541994; }
+.remedies h1{font-family: 'Fredoka One', cursive; color: #541994; }
 .remedies p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
 .remedies p{ display: inline-block; margin-left: 20px; border: solid 5px #541994; padding: 10px; }
 
-.story h1{font-family: 'Abril Fatface', cursive; color: #048023;}
+.story h1{font-family: 'Fredoka One', cursive; color: #048023;}
 .story p{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; color: #000000; }
 
 .footer{font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
