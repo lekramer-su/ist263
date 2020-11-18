@@ -83,6 +83,10 @@ a:visited {color: #ffffff;}
     margin: 0 auto;
 }
 
+.picture {
+    flex: 1
+}
+
 .image {max-width: 100%;}
 
 @media only screen and (max-width: 600px) 
