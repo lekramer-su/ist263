@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lauren's Portfolio Slideshow</title>
+    <style>
+        body {
+            font-family:  Tahoma, Geneva, sans-serif; 
+            background-color: #e6dfe5;
+            color: #000000;
+        }
+        #slideshow-container {
+            background-color: #e6dfe5;
+            width: 1200px;
+            margin: auto;        
+        }
+        #bigimages {margin-right: 100px;}
+        #pictureinfo {padding: 100px;}
+        #thumbnails {width: 840px; margin: auto; padding-top: 20px;} 
+        #instagramthumb, #witthumb, #writingthumb {width: 100px;}
+        #instagram {display: none;}
+        #wit {display: none;}
+        #writing {display: none;}
+        #bigimages {float: left; margin: 10px;}
+        .clear {clear:both}
+    </style>
+    <script>
+        function PlanetsOff() {
+        document.getElementById('instagram').style.display = 'none';
+        document.getElementById('wit').style.display = 'none';
+        document.getElementById('writing').style.display = 'none';
+        }
+        function instagramOn () {
+            document.getElementById('instagram').style.display = 'block';
+            document.getElementById('instagraminfo').style.display = 'block';
+        }
+        function writingOn () {
+            document.getElementById('writing').style.display = 'block';
+            document.getElementById('writinginfo').style.display = 'block';
+        }
+        function witOn () {
+            document.getElementById('wit').style.display = 'block';
+            document.getElementById('witinfo').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <a id="content"></a>
+        <a id="skip-to-content" href="#content">Skip to Content</a>
+        <nav>
+            <a href="index.html">Bio</a> <span class="pipe"> |  </span>
+            <a href="contact.html">Contact</a> <span class="pipe"> |  </span> 
+            <a href="skills.html">Skills</a> <span class="pipe"> |  </span> 
+            <a href="portfolio.html">Skills</a>
+           </nav>
+
+    <div id="slideshow-container">
+        <div id="bigimages">
+            <img src="../xcredit/instagram.jpeg" alt="instagram" id="instagram">
+            <img src="../xcredit/wit.jpeg" alt="wit" id="wit">
+            <img src="../xcredit/writing.JPG" alt="writing" id="writing">
+        </div>
+
+    <div id="pictureinfo">        
+            <h1>Portfolio Slideshow</h1>
+            <div id="instagraminfo">
+                <h2>Labelz & Love </h2>
+                <p></p>
+            </div>
+            <div id="witinfo">
+                <h2>Women in Technology</h2>
+                <p></p>
+            </div>
+            <div id="writinginfo">
+                <h2>Writing 105</h2>
+                <p></p>
+            </div>
+    </div>
+    </div>
+
+    <div class= "clear"></div>
+    <div id="thumbnails">
+    <img src="../xcredit/instagram.jpeg" alt="instagram" id="instagramthumb" onclick="instagramOff(); instagramOn();">
+    <img src="../xcredit/wit.jpeg" alt="wit" id="witthumb" onclick="witOff(); witOn();">
+    <img src="../xcredit/writing.jpg" alt="writing" id="writingthumb" onclick="writingOff(); writingOn();">
+    </div>
+
+</body>
+</html>
