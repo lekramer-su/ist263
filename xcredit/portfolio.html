@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Lauren's Portfolio Slideshow</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family:  Tahoma, Geneva, sans-serif; 
@@ -21,24 +22,30 @@
         #instagram {display: none;}
         #wit {display: none;}
         #writing {display: none;}
+        #instagraminfo {display: none;}
+        #witinfo {display: none;}
+        #writinginfo {display: none;}
         #bigimages {float: left; margin: 10px;}
         .clear {clear:both}
     </style>
     <script>
-        function PlanetsOff() {
+        function PictureOff() {
         document.getElementById('instagram').style.display = 'none';
         document.getElementById('wit').style.display = 'none';
         document.getElementById('writing').style.display = 'none';
+        document.getElementById('instagraminfo').style.display = 'none';
+        document.getElementById('witinfo').style.display = 'none';
+        document.getElementById('writinginfo').style.display = 'none';
         }
-        function instagramOn () {
+        function InstagramOn () {
             document.getElementById('instagram').style.display = 'block';
             document.getElementById('instagraminfo').style.display = 'block';
         }
-        function writingOn () {
+        function WritingOn () {
             document.getElementById('writing').style.display = 'block';
             document.getElementById('writinginfo').style.display = 'block';
         }
-        function witOn () {
+        function WitOn () {
             document.getElementById('wit').style.display = 'block';
             document.getElementById('witinfo').style.display = 'block';
         }
@@ -51,7 +58,7 @@
             <a href="index.html">Bio</a> <span class="pipe"> |  </span>
             <a href="contact.html">Contact</a> <span class="pipe"> |  </span> 
             <a href="skills.html">Skills</a> <span class="pipe"> |  </span> 
-            <a href="portfolio.html">Skills</a>
+            <a href="portfolio.html">Portfolio</a>
            </nav>
 
     <div id="slideshow-container">
@@ -65,11 +72,11 @@
             <h1>Portfolio Slideshow</h1>
             <div id="instagraminfo">
                 <h2>Labelz & Love </h2>
-                <p></p>
+                <p>Last semester, I took IST 486 and learned about all about social media and the different algorithms. I found that this was one of my most interesting classes because it related to my everyday life. Prior to this class, I rarely gave each post, caption, location, and tag extreme thought. After taking this class, however, I have a whole different outlook when browsing my feed. One project in the class allowed me to learn and explore these algorithms hands on. My group and I focused our studies on fashion.  We researched how to reach our audience and what posts would look aesthetic on our feed. Here is a snapshot of the instagram page we created!</p>
             </div>
             <div id="witinfo">
                 <h2>Women in Technology</h2>
-                <p></p>
+                <p> </p>
             </div>
             <div id="writinginfo">
                 <h2>Writing 105</h2>
@@ -80,9 +87,9 @@
 
     <div class= "clear"></div>
     <div id="thumbnails">
-    <img src="../xcredit/instagram.jpeg" alt="instagram" id="instagramthumb" onclick="instagramOff(); instagramOn();">
-    <img src="../xcredit/wit.jpeg" alt="wit" id="witthumb" onclick="witOff(); witOn();">
-    <img src="../xcredit/writing.jpg" alt="writing" id="writingthumb" onclick="writingOff(); writingOn();">
+    <img src="../xcredit/instagram.jpeg" alt="instagram" id="instagramthumb" onclick="PictureOff(); InstagramOn();">
+    <img src="../xcredit/wit.jpeg" alt="wit" id="witthumb" onclick="PictureOff(); WitOn();">
+    <img src="../xcredit/writing.jpg" alt="writing" id="writingthumb" onclick="PictureOff(); WritingOn();">
     </div>
 
 </body>
