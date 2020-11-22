@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Lauren's Portfolio Slideshow</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         body {
             font-family:  Tahoma, Geneva, sans-serif; 
@@ -25,6 +26,54 @@
         #writinginfo {display: none;}
         #bigimages {float: left; margin: 10px;}
         .clear {clear:both}
+        
+        h1 {
+        --color1: #f000f0;
+        --color2: #000000;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 46px;
+        background: repeating-linear-gradient( 45deg, var(--color1), var(--color1) 30px, var(--color2) 30px, var(--color2) 60px);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        animation: 40s linear 0s infinite move;
+        }
+
+        @-webkit-keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    
+    @-webkit-keyframes blink-caret {
+        50% {
+            border-color: transparent;
+        }
+    }
+    
+    
+    @keyframes move {
+        from {
+            background-position: 0px;
+        }
+        to {
+            background-position: 1000px;
+        }
+        }
+
+        h2 {
+        font: bold 100% Consolas, Monaco, monospace;
+        border-right: .1em solid black;
+        width: 16.5em;
+        width: 21ch;
+        margin: 2em 1em;
+        white-space: nowrap;
+        overflow: hidden;
+        -webkit-animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
+    }
+    
+    Run Pen Resources
     </style>
     <script>
         function PictureOff() {
