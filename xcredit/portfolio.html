@@ -3,17 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>Lauren's Portfolio Slideshow</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         body {
             font-family:  Tahoma, Geneva, sans-serif; 
-            background-color: #ffffff;
             color: #000000;
             transition-timing-function: ease;
         }
         #slideshow-container {
-            background-color: #ffffff;
             width: 1200px;
             margin: auto;        
         }
@@ -52,6 +50,7 @@
     </script>
 </head>
 <body>
+    <div class="element">
     <a id="content"></a>
         <a id="skip-to-content" href="#content">Skip to Content</a>
         <nav>
@@ -60,7 +59,7 @@
             <a href="skills.html">Skills</a> <span class="pipe"> |  </span> 
             <a href="portfolio.html">Portfolio</a>
            </nav>
-    <div class="w3-animate-zoom">
+
     <div id="slideshow-container">
         <div id="bigimages">
             <img src="../xcredit/instagram.jpeg" alt="instagram" id="instagram">
@@ -91,6 +90,9 @@
     <img src="../xcredit/wit.jpeg" alt="wit" id="witthumb" onclick="PictureOff(); WitOn();">
     <img src="../xcredit/writing.jpg" alt="writing" id="writingthumb" onclick="PictureOff(); WritingOn();">
     </div> 
+
+    <div class="element">
+    </div>
 
 </body>
 </html>
