@@ -11,8 +11,8 @@ nav {margin-bottom: 30px}
 a:visited {color: #000000;}
 
 
-h1 {color: #f000f0; font-size: 14 em;}
-h2 {color: #f000f0; font-size: 12 em;}
+h1 {color: #ffffff; font-size: 14 em;}
+h2 {color: #ffffff; font-size: 12 em;}
 
 
 .image {max-width: 100%;}
@@ -50,4 +50,39 @@ h2 {color: #f000f0; font-size: 12 em;}
   html,
   body {
     height: 100%;
+  }
+
+  .text {
+    background: #f000f0;
+    padding: 10px;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+  
+  .text:hover {
+    background-color: #82c7ff;
+    cursor: pointer;
+  }
+
+  @keyframes my-animation {        
+    from {
+      opacity : 0;
+      left : -500px;
+    }
+    to {
+      opacity : 1;
+      left : 0;
+    }      
+  }
+  
+  .run-animation {
+    position: relative;
+    animation: my-animation 2s ease;
+  }
+  
+  #logo {
+    text-align: center;
+    font-family : "Trebuchet MS", Helvetica, sans-serif;
   }
