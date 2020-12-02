@@ -23,7 +23,7 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .home nav {background-color: #0f0f54;}
 .me nav {background-color: #4B371C;}
 .remedies nav {background-color: #fff478;}
-.story nav {background-color: #ab0202;}
+.story nav {background-color: #ff5c5c;}
 .home nav a {color:#fdb9ec;}
 .me nav a {color:#fdb9ec;}
 .remedies nav a {color:#490399;}
@@ -34,7 +34,7 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .remedies .pipe {color: #000000;}
 
 .home nav a:hover {background-color: #9ec8de;}
-.story nav a:hover {background-color: #ffabbc;} 
+.story nav a:hover {background-color: #000000;} 
 .me nav a:hover {background-color: #56b7f0;} 
 .remedies nav a:hover {background-color: #d4d4d4;}
 
