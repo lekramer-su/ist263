@@ -21,15 +21,15 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .remedies {background-color: #f8f2ff;}
 
 .home nav {background-color: #0f0f54;}
-.me nav {background-color: #D4AF37;}
-.remedies nav {background-color: #ff9100;}
-.story nav {background-color: #ff2e2e;}
+.me nav {background-color: #4B371C;}
+.remedies nav {background-color: #db5b00;}
+.story nav {background-color: #bd1408;}
 nav a {color:#fdb9ec;}
 .pipe {color: #ffffff;}
 
 .home nav a:hover {background-color: #9ec8de;}
 .story nav a:hover {background-color: #000000;} 
-.me nav a:hover {background-color: #0f0f54;} 
+.me nav a:hover {background-color: #56b7f0;} 
 .remedies nav a:hover {background-color: #541994;}
 
 nav {padding: 10px}
