@@ -22,12 +22,12 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 
 .home nav {background-color: #0f0f54;}
 .me nav {background-color: #4B371C;}
-.remedies nav {background-color: #000000;}
+.remedies nav {background-color: #fff478;}
 .story nav {background-color: #6078ab;}
 .home nav a {color:#fdb9ec;}
 .me nav a {color:#fdb9ec;}
 .remedies nav a {color:#490399;}
-.story nav a {color:#db0000;}
+.story nav a {color:#000000;}
 .home .pipe {color: #ffffff;}
 .me .pipe {color: #ffffff;}
 .story .pipe {color: #ffffff;}
