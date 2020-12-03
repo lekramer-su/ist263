@@ -90,6 +90,7 @@ nav {margin-bottom: 30px}
     display: flex;
     align-items: baseline;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .picture {
@@ -108,4 +109,5 @@ nav {margin-bottom: 30px}
     nav a {width: 100%; margin-bottom: 10px;
         display: block;} 
         .pipe {display:none;}
+    
 }
