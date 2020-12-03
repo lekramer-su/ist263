@@ -30,7 +30,7 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .story nav a {color:#000000;}
 .home .pipe {color: #ffffff;}
 .me .pipe {color: #ffffff;}
-.story .pipe {color: #ffffff;}
+.story .pipe {color: #000000;}
 .remedies .pipe {color: #000000;}
 
 .home nav a:hover {background-color: #9ec8de;}
