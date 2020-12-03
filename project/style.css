@@ -27,14 +27,14 @@ nav{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .home nav a {color:#fdb9ec;}
 .me nav a {color:#fdb9ec;}
 .remedies nav a {color:#490399;}
-.story nav a {color:#faf29b;}
+.story nav a {color:#db0000;}
 .home .pipe {color: #ffffff;}
 .me .pipe {color: #ffffff;}
 .story .pipe {color: #ffffff;}
 .remedies .pipe {color: #000000;}
 
 .home nav a:hover {background-color: #9ec8de;}
-.story nav a:hover {background-color: #db0000;} 
+.story nav a:hover {background-color: #fffd78;} 
 .me nav a:hover {background-color: #56b7f0;} 
 .remedies nav a:hover {background-color: #d4d4d4;}
 
