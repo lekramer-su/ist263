@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, inital-scale=1">
+        <title>My Story</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <style>
+            .clear{clear: both;}
+            .part1{float: left;}
+            .part1{display: flex;}
+            .part2{float: left; flex-wrap: wrap;}
+            .part2{display: flex;}
+            #hamicon {width: 35px; 
+                display: none;}
+        @media only screen and (max-width: 600px) {
+            nav a {
+                width: 100%;
+                padding: 10px 0px;
+                display: block;
+            }
+            span {display: none;}
+            #hamicon {display: block;}
+            #navlinks {display: none;}
+        }
+        </style>
+        <script>
+            function TurnNavOnOff() {
+                if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                    document.getElementById('navlinks').style.display = 'none';
+                }
+                else {
+                    document.getElementById('navlinks').style.display = 'block';
+                }
+                
+            }
+        </script>
+    </head>
+
+    <body class="story">
+        <a id="content"></a>
+        <a id="skip-to-content" href="#content">Skip to Content</a>
+        <nav>
+            <img src="../Images/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+            <div id="navlinks">
+            <a href="index.html">Home</a> <span class="pipe"> |  </span>
+            <a href="aboutme.html">About Me</a> <span class="pipe"> |  </span> 
+            <a href="remedies.html">Remedies</a> <span class="pipe"> |  </span> 
+            <a href="mystory.html">My Story</a>
+        </div>   
+        </nav>
+
+           <h1> My Story </h1>
+        
+        <div class="story-wrapper">
+        <section class="part1">
+
+        <img src="../pictures/media/natural.jpg" alt="Fruits and vegetables filling a pill capsule">
+        </section>
+        
+        <div class="Part2">
+           <p class="story-text">
+            After meeting with the rheumatologist, he developed a plan for me. The first supplement that he thought would be most beneficial was turmeric. Turmeric is an excellent anti-inflammatory that I take daily. Even though some foods contain turmeric, it is important to take it as a supplement if you want the full benefit it provides. The doctor also gave me a long list of other anti-inflammatories and immunity boosting supplements that I take daily. He also suggested certain foods, such as certain fish which provides omega-3 fatty acids, leafy greens and a low sugar diet. After being on this specific regimen for approximately 2 months, I started to notice a huge difference in how I felt. I have a lot more energy than I did before. I am hardly achy and my throat does not hurt as much. I feel like a new person! The combination of supplements, diet and a regular exercise regimen has changed my life for the better. Although I take approximately 13 pills a day, it is a small price to pay to feel like myself!
+           </p>
+        </div>
+        </div>
+
+        <div class="footer">
+
+        <hr>
+        &copy;2020
+
+    </div>
+</body>
+</html>
