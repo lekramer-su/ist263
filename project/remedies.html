@@ -8,17 +8,45 @@
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">        
+    <style>
+         #hamicon {width: 35px; 
+                display: none;}
+        @media only screen and (max-width: 600px) {
+            nav a {
+                width: 100%;
+                padding: 10px 0px;
+                display: block;
+            }
+            span {display: none;}
+            #hamicon {display: block;}
+            #navlinks {display: none;}
+        }
+    </style>
+    <script>
+        function TurnNavOnOff() {
+            if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                document.getElementById('navlinks').style.display = 'none';
+            }
+            else {
+                document.getElementById('navlinks').style.display = 'block';
+            }
+            
+        }
+    </script>
     </head>
 
     <body class="remedies">
         <a id="content"></a>
         <a id="skip-to-content" href="#content">Skip to Content</a>
         <nav>
+            <img src="../Images/hamburger.png" alt="hamburger icon" id="hamicon" onclick="TurnNavOnOff();">
+            <div id="navlinks">
             <a href="index.html">Home</a> <span class="pipe"> |  </span>
             <a href="aboutme.html">About Me</a> <span class="pipe"> |  </span> 
             <a href="remedies.html">Remedies</a> <span class="pipe"> |  </span> 
             <a href="mystory.html">My Story</a>
-           </nav>
+            </div>
+        </nav>
         
         <h1> Remedies </h1>
 
